@@ -13,4 +13,5 @@ Rails.application.routes.draw do
 
   get "/faq" => "pages#faq"
 
+  resource :user
 end
